@@ -1,0 +1,8 @@
+D:\Code\UnitTest\UnitTestProject1\Fakes\frame1.fakes : warning : 无法为 frame1.Program 生成存根: 类型对 exported or assembly(frame1.Fakes) 不可见。
+D:\Code\UnitTest\UnitTestProject1\Fakes\frame1.fakes : warning : 无法为 frame1.Y2KChecker 生成存根: 类型已密封。
+D:\Code\UnitTest\UnitTestProject1\Fakes\frame1.fakes : warning : 无法为 frame1.MyClass 生成存根: 类型已密封。
+D:\Code\UnitTest\UnitTestProject1\Fakes\frame1.fakes : warning : 无法为 frame1.Program 生成填充码: 类型对 exported or assembly(frame1.Fakes) 不可见。
+D:\Code\UnitTest\UnitTestProject1\Fakes\frame1.fakes : warning : 无法为 frame1.IStockFeed 生成填充码: 类型是一个接口。
+D:\Code\UnitTest\UnitTestProject1\Fakes\frame1.fakes : warning : 无法为 frame1.IMyInterface 生成填充码: 类型是一个接口。
+D:\Code\UnitTest\UnitTestProject1\Fakes\frame1.fakes : warning : 无法为 frame1.IWithEvents 生成填充码: 类型是一个接口。
+D:\Code\UnitTest\UnitTestProject1\Fakes\frame1.fakes : warning : 无法为 frame1.IGenericMethod 生成填充码: 类型是一个接口。

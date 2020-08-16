@@ -16,12 +16,14 @@ namespace Tests
         }
 
         [Test]
+        [Category("aaa")]
         public void TestDrugs()
         {
-            Assert.AreEqual(9, Cmp.Largest(new int[] { 9, 7, 9, 8 }));
+            Assert.AreEqual(0, Cmp.Largest(new int[] { 9, 7, 9, 8 }));
         }
 
         [Test]
+        [Category("aaa")]
         public void TestOne()
         {
             Assert.AreEqual(1, Cmp.Largest(new int[] { 1 }));

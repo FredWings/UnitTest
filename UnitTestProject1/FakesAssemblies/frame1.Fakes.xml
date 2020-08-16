@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>frame1.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:frame1.Fakes.ShimMyClass">
+            <summary>frame1.MyClass 的填充码类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimMyClass.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimMyClass.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimMyClass.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimMyClass.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimMyClass.MyMethod">
+            <summary>设置 MyClass.MyMethod() 的 填充码</summary>
+        </member>
+        <member name="T:frame1.Fakes.ShimMyClassOne">
+            <summary>frame1.MyClassOne 的填充码类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimMyClassOne.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimMyClassOne.#ctor(frame1.MyClassOne)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:frame1.Fakes.ShimMyClassOne.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimMyClassOne.AllInstances.MyMethod">
+            <summary>设置 MyClassOne.MyMethod() 的 填充码</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimMyClassOne.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimMyClassOne.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimMyClassOne.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimMyClassOne.Constructor">
+            <summary>设置 MyClassOne.MyClassOne() 的 填充码</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimMyClassOne.MyMethod">
+            <summary>设置 MyClassOne.MyMethod() 的 填充码</summary>
+        </member>
+        <member name="T:frame1.Fakes.ShimMyComponent">
+            <summary>frame1.MyComponent 的填充码类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimMyComponent.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimMyComponent.#ctor(frame1.MyComponent)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:frame1.Fakes.ShimMyComponent.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimMyComponent.AllInstances.GetTheCurrentYear">
+            <summary>设置 MyComponent.GetTheCurrentYear() 的 填充码</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimMyComponent.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimMyComponent.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimMyComponent.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimMyComponent.Constructor">
+            <summary>设置 MyComponent.MyComponent() 的 填充码</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimMyComponent.GetTheCurrentYear">
+            <summary>设置 MyComponent.GetTheCurrentYear() 的 填充码</summary>
+        </member>
+        <member name="T:frame1.Fakes.ShimStockAnalyzer">
+            <summary>frame1.StockAnalyzer 的填充码类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimStockAnalyzer.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimStockAnalyzer.#ctor(frame1.StockAnalyzer)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:frame1.Fakes.ShimStockAnalyzer.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimStockAnalyzer.AllInstances.GetContosoPrice">
+            <summary>设置 StockAnalyzer.GetContosoPrice() 的 填充码</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimStockAnalyzer.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimStockAnalyzer.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimStockAnalyzer.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimStockAnalyzer.ConstructorIStockFeed">
+            <summary>设置 StockAnalyzer.StockAnalyzer(IStockFeed feed) 的 填充码</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimStockAnalyzer.GetContosoPrice">
+            <summary>设置 StockAnalyzer.GetContosoPrice() 的 填充码</summary>
+        </member>
+        <member name="T:frame1.Fakes.ShimY2KChecker">
+            <summary>frame1.Y2KChecker 的填充码类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimY2KChecker.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimY2KChecker.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:frame1.Fakes.ShimY2KChecker.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimY2KChecker.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:frame1.Fakes.ShimY2KChecker.Check">
+            <summary>设置 Y2KChecker.Check() 的 填充码</summary>
+        </member>
+        <member name="T:frame1.Fakes.StubIGenericMethod">
+            <summary>frame1.IGenericMethod 的存根类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubIGenericMethod.#ctor">
+            <summary>初始化 type StubIGenericMethod 的新实例</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubIGenericMethod.GetValueOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>设置 GetValue() 的存根</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubIGenericMethod.frame1#IGenericMethod#GetValue``1">
+            <summary>设置 IGenericMethod.GetValue() 的 存根</summary>
+        </member>
+        <member name="T:frame1.Fakes.StubIMyInterface">
+            <summary>frame1.IMyInterface 的存根类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubIMyInterface.#ctor">
+            <summary>初始化 type StubIMyInterface 的新实例</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubIMyInterface.AttachBackingFieldToValue">
+            <summary>附加委托以将 StubIMyInterface.Value 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="F:frame1.Fakes.StubIMyInterface.MyMethodString">
+            <summary>设置 IMyInterface.MyMethod(String value) 的 stub</summary>
+        </member>
+        <member name="P:frame1.Fakes.StubIMyInterface.frame1#IMyInterface#Value">
+            <summary>设置 IMyInterface.get_Value() 的 stub</summary>
+        </member>
+        <member name="F:frame1.Fakes.StubIMyInterface.ValueGet">
+            <summary>设置 IMyInterface.get_Value() 的 stub</summary>
+        </member>
+        <member name="F:frame1.Fakes.StubIMyInterface.ValueSetInt32">
+            <summary>设置 IMyInterface.set_Value(Int32 value) 的 stub</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubIMyInterface.frame1#IMyInterface#MyMethod(System.String)">
+            <summary>设置 IMyInterface.MyMethod(String value) 的 存根</summary>
+        </member>
+        <member name="T:frame1.Fakes.StubIStockFeed">
+            <summary>frame1.IStockFeed 的存根类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubIStockFeed.#ctor">
+            <summary>初始化 type StubIStockFeed 的新实例</summary>
+        </member>
+        <member name="F:frame1.Fakes.StubIStockFeed.GetSharePriceString">
+            <summary>设置 IStockFeed.GetSharePrice(String company) 的 stub</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubIStockFeed.frame1#IStockFeed#GetSharePrice(System.String)">
+            <summary>设置 IStockFeed.GetSharePrice(String company) 的 存根</summary>
+        </member>
+        <member name="T:frame1.Fakes.StubIWithEvents">
+            <summary>frame1.IWithEvents 的存根类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubIWithEvents.#ctor">
+            <summary>初始化 type StubIWithEvents 的新实例</summary>
+        </member>
+        <member name="T:frame1.Fakes.StubMyClassOne">
+            <summary>frame1.MyClassOne 的存根类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubMyClassOne.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:frame1.Fakes.StubMyClassOne.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubMyClassOne.InitializeStub">
+            <summary>初始化 type StubMyClassOne 的新实例</summary>
+        </member>
+        <member name="P:frame1.Fakes.StubMyClassOne.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:frame1.Fakes.StubMyClassOne.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:frame1.Fakes.StubMyComponent">
+            <summary>frame1.MyComponent 的存根类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubMyComponent.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:frame1.Fakes.StubMyComponent.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubMyComponent.InitializeStub">
+            <summary>初始化 type StubMyComponent 的新实例</summary>
+        </member>
+        <member name="P:frame1.Fakes.StubMyComponent.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:frame1.Fakes.StubMyComponent.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:frame1.Fakes.StubStockAnalyzer">
+            <summary>frame1.StockAnalyzer 的存根类型</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubStockAnalyzer.#ctor(frame1.IStockFeed)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:frame1.Fakes.StubStockAnalyzer.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:frame1.Fakes.StubStockAnalyzer.InitializeStub">
+            <summary>初始化 type StubStockAnalyzer 的新实例</summary>
+        </member>
+        <member name="P:frame1.Fakes.StubStockAnalyzer.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:frame1.Fakes.StubStockAnalyzer.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>
